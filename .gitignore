@@ -1,0 +1,14 @@
+.vs/
+bin/
+obj/
+
+debug/
+release/
+x64/
+x86/
+
+*.user
+*.suo
+
+.vsix/
+.vsix-manifest/
