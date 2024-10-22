@@ -1,0 +1,34 @@
+{
+    "name": "lx-tools",
+    "displayName": "custom lx language tools",
+    "description": "lx highlighting",
+
+    "version": "0.0.1",
+    "publisher": "Pasha Bibko",
+
+    "engines":
+    {
+        "vscode": "^1.22.0"
+    },
+
+    "contributes":
+    {
+        "languages":
+        [
+            {
+                "id": "lx-lang",
+                "extensions": [".lx"],
+                "configuration": "lx-config.json"
+            }
+        ],
+
+        "grammars":
+        [
+            {
+                "language": "lx-lang",
+                "scopeName": "source.lx",
+                "path": "lx-lang.json"
+            }
+        ]
+    }
+}

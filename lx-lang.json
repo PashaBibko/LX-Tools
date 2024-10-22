@@ -1,0 +1,22 @@
+{
+    "name": "lx-lang",
+    "scopeName": "source.lx",
+
+    "patterns":
+    [
+        {
+            "match": "\\b(if|else|for|while)\\b",
+            "name": "keyword.control.lx"
+        },
+
+        {
+            "match": "\\b(true|false)\\b",
+            "name": "storage.constant.lx"
+        },
+
+        {
+            "match": "\\b(int|float|bool|char|void)\\b",
+            "name": "storage.type.lx"
+        }
+    ]
+}
